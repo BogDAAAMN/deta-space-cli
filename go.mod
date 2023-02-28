@@ -12,7 +12,10 @@ require (
 	gotest.tools/v3 v3.3.0
 )
 
-require github.com/aymanbagabas/go-osc52 v1.0.3 // indirect
+require (
+	github.com/aymanbagabas/go-osc52 v1.0.3 // indirect
+	github.com/withfig/autocomplete-tools/integrations/cobra v1.2.1 // indirect
+)
 
 require (
 	github.com/atotto/clipboard v0.1.4 // indirect
